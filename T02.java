@@ -3,6 +3,9 @@
 import java.util.*;
 import java.lang.Math;
 
+import java.util.*;
+import java.lang.Math;
+
 public class T02 {
     private static Scanner input = new Scanner(System.in);
 
@@ -14,18 +17,18 @@ public class T02 {
         iSBN = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tahunTerbit = input.nextInt();
+        tahunTerbit = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         formatBukuElektronik = input.nextLine();
-        hargaPembelian = input.nextDouble();
-        minimumMargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargaPembelian = Double.parseDouble(input.nextLine());
+        minimumMargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
-            kategori = "BestPick";
+            kategori = "Best Pick";
         } else {
             if (rating >= 4.5) {
-                kategori = "MustRead";
+                kategori = "Must Read";
             } else {
                 if (rating >= 4.0) {
                     kategori = "Recommended";
