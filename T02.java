@@ -1,6 +1,5 @@
 // 12S24040 - Rony Reynaldy Pangaribuan
-// 12S24023 - Jaya Bestina Simbolon
-
+// 12S24040 - Jaya Bestina Simbolon
 import java.util.*;
 import java.lang.Math;
 
